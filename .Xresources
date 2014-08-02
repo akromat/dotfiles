@@ -10,9 +10,17 @@ urxvt*cursorBlink: true
 urxvt*background: #1c1e1f
 urxvt*foreground: #dfd7c1
 urxvt*cursorColor: #5c5c5c
-urxvt*.colorUL: #790000
+urxvt*.colorUL: #ffccaa
 
 urxvt*loginShell: true
+
+urxvt.clipboard.autocopy: true
+
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: chromium
+URxvt.matcher.button: 1
+URxvt.underlineURLs: false
+
 
 !black
 *color0: #303030
