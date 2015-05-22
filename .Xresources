@@ -1,14 +1,15 @@
 urxvt*scrollBar:false
 urxvt*scrollBar_right:false
 urxvt*scrollBar_floating:false
-urxvt*font: -gohu-gohufont-medium-*
+urxvt*font: xft:Hermit:size=8:antialias=true
 urxvt*shading: 5
 urxvt*transparent: false
 urxvt*borderLess: false
 urxvt*internalBorder: 5
 urxvt*cursorBlink: true
-urxvt*background: #1c1e1f
-urxvt*foreground: #dfd7c1
+!urxvt*background: #1c1e1f
+!*background: #272822
+!urxvt*foreground: #dfd7c1
 urxvt*cursorColor: #5c5c5c
 urxvt*.colorUL: #ffccaa
 
@@ -17,40 +18,6 @@ urxvt*loginShell: true
 urxvt.clipboard.autocopy: true
 
 URxvt.perl-ext-common: default,matcher
-URxvt.url-launcher: chromium
+URxvt.url-launcher: google-chrome-stable
 URxvt.matcher.button: 1
 URxvt.underlineURLs: false
-
-
-!black
-*color0: #303030
-!bright_black
-*color8: #808080
-!red
-*color1: #e49765
-!bright_red
-*color9: #e49765
-!green
-*color2: #caa472
-!bright_green
-*color10: #caa472
-!yellow
-*color3: #d7a465
-!bright_yellow
-*color11: #d7a465
-!blue
-*color4: #d78a7f
-!bright_blue
-*color12: #d78a7f
-!magenta
-*color5: #e48a72
-!bright_magenta
-*color13: #e48a72
-!cyan
-*color6: #ca977f
-!bright_cyan
-*color14: #ca977f
-!white
-*color7: #919191
-!bright_white
-!color15: #ffffff
